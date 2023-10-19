@@ -3,273 +3,98 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Cursor ko main div se bhar he rakhege kyu ki humne uski position fixed de hai aur positin fixed locomotive J.s pr kaam nhi krta. -->
     <div class="cursor"></div>
-
-    <div id="main">
-      <div id="loader">
-        <div id="topheading">
-          <h5 class="reveal">Design portfolio</h5>
-          <h5 class="reveal">&copy; 2023</h5>
-        </div>
-        <h1 class="reveal">
-          <span>Hey,</span> <span>I'm</span> <span>Sahil</span>
-          <span id="sharma">Sharma</span>
-        </h1>
-      </div>
-      <div id="green"></div>
-      <div id="home">
+    <div class="main">
+      <div class="page1">
         <div id="nav">
-          <a href="#">.Portfolio</a
-          ><a href="#about"
-            >ABOUT
-            <span id="line1" class="line"></span>
-            <span id="line2" class="line"></span> </a
-          ><a href="#"
-            >SOCIALS
-            <span id="line1" class="line"></span>
-            <span id="line2" class="line"></span> </a
-          ><a href="#portfolio"
-            >PROJECT
-            <span id="line1" class="line"></span>
-            <span id="line2" class="line"></span>
-          </a>
-        </div>
-        <div class="row">
-          <h1>Creative</h1>
-          <div class="text">
-            <h5>CURRENTLY PURSUING B-TECH</h5>
-            <h5>IN COMPUTER SCIENCE</h5>
+          <img src="download.png" alt="" />
+          <div id="nav-part2">
+            <h4>Home</h4>
+            <h4>Work</h4>
+            <h4>Studio</h4>
+            <h4>Contact</h4>
           </div>
-          <div class="text">
-            <h5>HAVE 2 YEARS EXPERIENCE</h5>
-            <h5>IN PAPER INDUSTRY</h5>
+
+          <div id="nav-part3">
+            <div id="circle"></div>
           </div>
-        </div>
-        <div class="row">
-          <img src="down-arrow.040970d7.svg" alt="" />
-          <h1><span>Web</span></h1>
-          <h1>Developer</h1>
         </div>
 
-        <div id="aboutme">
-          <div id="aboutmeleft">
-            <h1>
-              Hi,I'm Sahil Sharma,<br />a passionate B.tech student in
-              <span>computer science</span> <br />who's deeply in love with<br />
-              web development,<br />where i turn lines of code into
-              beautiful,functional websites.
-            </h1>
+        <h1>Digitally Crafted</h1>
+        <h2>Branded experiences</h2>
 
-            <div class="home-sci">
-              <a href="#"><i class="bx bxl-facebook"></i></a>
-              <a href="#"><i class="bx bxl-twitter"></i></a>
-              <a href="#"><i class="bx bxl-twitter"></i></a>
-            </div>
+        <video
+          autoplay
+          muted
+          loop
+          src="351315438_630851405624139_4328918363796879453_n (1).mp4"
+        ></video>
+      </div>
+
+      <div class="page2">
+        <h1>We are Duo Studio,</h1>
+        <div class="page2-container">
+          <div class="page2-left">
+            <h2>A CREATIVE COLLECTIVE MADE TO UNLOCK YOUR BRAND'S POTENTIAL</h2>
           </div>
-          <div id="aboutmeright">
-            <div class="imagecontainer" id="one"></div>
-            <div class="imagecontainer" id="two"></div>
-            <div class="imagecontainer" id="three"></div>
+          <div class="page2-right">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
+              quo quis fuga soluta cumque praesentium et nemo reprehenderit in
+              nisi esse repellendus dolore sequi, nobis rem quidem excepturi
+              facere? Ex, magnam quaerat dolorem nemo maiores autem at ab soluta
+              quasi corrupti vitae mollitia aperiam eius consectetur repudiandae
+              labore tempora nesciunt!
+            </p>
+
+            <button>About us</button>
           </div>
         </div>
       </div>
 
-      <div id="border"></div>
-
-      <div id="work">
-        <div class="workrow">
-          <h1>Creative Wo<span>r</span>ks</h1>
-          <img src="down-arrow.040970d7.svg" alt="" />
+      <div class="page3">
+        <h1>Selected Works</h1>
+        <div class="page3-part1">
+          <img src="jocke-wulcan-KLOW1bD616Y-unsplash.jpg" alt="" />
+          <video autoplay loop muted src="hero.mp4"></video>
         </div>
       </div>
 
-      <section class="portfolio" id="portfolio">
-        <h2 class="heading">Latest <span>Project</span></h2>
-
-        <div class="portfolio-container">
-          <div class="port-folio-box">
-            <img src="/project 1/image2.jpg" alt="" />
-            <div class="portfolio-layer">
-              <h4>Web Design</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam, in.
-              </p>
-
-              <a href="project 1/index.html"
-                ><i class="ri-external-link-fill"></i
-              ></a>
-            </div>
+      <div class="page4">
+        <div class="elem">
+          <img src="p1.avif" alt="" />
+          <div class="text-div">
+            <h1>Strategy</h1>
+            <h1>Strategy</h1>
           </div>
-
-          <div class="port-folio-box">
-            <video
-              src="project 0/351315438_630851405624139_4328918363796879453_n (1).mp4"
-              loop
-              muted
-              autoplay
-            ></video>
-            <div class="portfolio-layer">
-              <h4>Web Design</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam, in.
-              </p>
-
-              <a href="project 0/index.html"
-                ><i class="ri-external-link-fill"></i
-              ></a>
-            </div>
-          </div>
-          <div class="port-folio-box">
-            <video src="project 1/black.mp4" autoplay loop muted></video>
-
-            <div class="portfolio-layer">
-              <h4>Web Design</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam, in.
-              </p>
-
-              <a href="project3/index.html"
-                ><i class="ri-external-link-fill"></i
-              ></a>
-            </div>
-          </div>
-          <div class="port-folio-box">
-            <img src="/project4/adidas_318-565831.avif" alt="" />
-
-            <div class="portfolio-layer">
-              <h4>Web Design</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam, in.
-              </p>
-
-              <a href="project4/index.html"
-                ><i class="ri-external-link-fill"></i
-              ></a>
-            </div>
-          </div>
-
-          <div class="port-folio-box">
-            <img src="/project 2/plug.png" alt="" />
-
-            <div class="portfolio-layer">
-              <h4>Web Design</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam, in.
-              </p>
-
-              <a href="project 2/index.html"
-                ><i class="ri-external-link-fill"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- 
-      <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
-
-        <form action="#">
-          <div class="input-box">
-            <input type="text" placeholder="Full Name" />
-            <input type="email" placeholder="Email Address" />
-          </div>
-
-          <div class="input-box">
-            <input type="number" placeholder="Mobile Number" />
-            <input type="text" placeholder="Email Subject" />
-          </div>
-
-          <textarea
-            name=""
-            id=""
-            cols="30"
-            rows="7"
-            placeholder="Your Message"
-          ></textarea>
-
-          <input type="submit" value="Send Message" class="btn" id="sub" />
-        </form>
-      </section> -->
-
-      <section class="about" id="about">
-        <h2 class="heading">About <span>Me</span></h2>
-
-        <div class="about-img">
-          <img src="image2.jpg" alt="" />
+          <img src="p2.avif" alt="" />
         </div>
 
-        <div class="about-content">
-          <h2>Web Developer!</h2>
-          <h3><span>B-Tech</span> Student</h3>
-          <p>
-            As a student,I strive to be clever,learning,coding,designing,my
-            skills i wil endeavor <br />
-            With HTML,CSS, and JavaScript in my hand, i will build wesites that
-            truly stand. In the world of <span>Tech</span>,I will always
-            endeavor tb be a top-notch developer,<span>now and forever!</span>
-          </p>
-
-          <div class="btn-box btn">Read More</div>
-        </div>
-
-        <div class="hidden-text">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-            cupiditate blanditiis eveniet est quam esse officiis commodi modi
-            laboriosam quia culpa vero ab nesciunt distinctio beatae
-            consequatur, consequuntur pariatur soluta.
-          </p>
-
-          <div class="btn-box btn" id="close">Close</div>
-        </div>
-      </section>
-
-      <footer class="footer">
-        <div class="footer-text">
-          <p>Copyright &copy; 2023 by sahil | All Rights Reserved</p>
-        </div>
-
-        <div class="footer-iconTop">
-          <a href="#home"><i class="ri-arrow-up-line"></i></a>
-        </div>
-      </footer>
+        <div class="page5"></div>
+      </div>
     </div>
-
-    <!-- java script -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
       integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
       integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
