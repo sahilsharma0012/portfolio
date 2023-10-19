@@ -671,6 +671,11 @@ video {
   transition: all ease 1s;
 }
 
+
+.hidden-text p {
+  font-size: 1.6rem;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
